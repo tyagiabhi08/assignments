@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+</head>
+<body>
+    
+    <center>
+    <h1>Registeration</h1>
+
+
+    <form action="">
+    <table>
+
+        <tbody>
+
+            <tr>
+                <td>
+                    <label  for="name"> Name </label>
+                </td>
+                <td>
+                    <input placeholder="enter name" required type="text" id="name"> <span>*</span>
+                </td>
+            </tr>
+
+             <tr>
+                <td>
+                    <label  for="birth_date"> Birth Date </label>
+                </td>
+                <td>
+                    <input  required type="date" id="birth_date"> <span>*</span>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label  for="birth_time"> Birth Time </label>
+                </td>
+                <td>
+                    <input  required type="time" id="birth_time"> 
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label  for="email"> Email </label>
+                </td>
+                <td>
+                    <input  required type="email" id="email"> 
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <label  for="password"> Password </label>
+                </td>
+                <td>
+                    <input  required type="password" id="password"> 
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input placeholder="Password" id="password" type="password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <select>
+                                        <optgroup>
+                                            <option value="1">Maharashtra</option>
+                                            <option value="2">Delhi</option>
+                                            <option value="3">Kerala</option>
+                                        </optgroup>
+                                    </select>
+                                    <center>
+                                        <div>State</div>
+                                    </center>
+                                </td>
+                                <td>
+                                    <select>
+                                        <optgroup>
+                                            <option value="1">Pune</option>
+                                            <option value="2">Raigad</option>
+                                            <option value="3">Thane</option>
+                                        </optgroup>
+                                    </select>
+                                    <center>
+                                        <div>District</div>
+                                    </center>
+                                </td>
+                                <td>
+                                    <select>
+                                        <optgroup>
+                                            <option value="1">Pune</option>
+                                            <option value="2">Pimpri-Chinchwad</option>
+                                        </optgroup>
+                                    </select>
+                                    <center>
+                                        <div>City</div>
+                                    </center>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    Gender
+                </td>
+
+                <td>
+                    <input name="same" type="radio" id="radio_male">
+                    <label name="same" for="radio_male"> Male</label>
+
+                    <input name="same" type="radio" id="radio_female">
+                    <label name="same" for="radio_female"> Female</label>
+                </td>
+            </tr>
+
+               <tr>
+                  <td>
+                      Upload Photo
+                  </td>
+                  <td>
+                      <input accept="image/*" type="file"  >
+                  </td>
+
+               </tr>
+
+
+                <tr>
+                 <td>
+                     Select Your Course 
+                 </td>
+
+                  <td>
+                      <select id="course">
+
+                        <optgroup label="PG Diploma Course">
+                            <option value="1">PG-DAC</option>
+                            <option value="2">PG-DMC</option>
+                            <option value="3">PG-DESD</option>
+                            <option value="4">PG-DBDA</option>
+                        </optgroup>
+                          
+                        <optgroup label="Modular Course">
+
+                            <option value="1">Core Java</option>
+                            <option value="2">C++</option>
+                            <option value="3">DBDA</option>
+                        </optgroup>
+
+                      </select>
+                  </td>
+                </tr>
+
+
+               <tr>
+                   <td>
+
+                   </td>
+                   <td>
+                       <input type="submit" value="register">
+                       <input type="reset" value="clear">
+                   </td>
+               </tr>
+
+        </tbody>
+
+
+    </table>
+</form>
+</center>
+
+   <a href="home.html">Back To Home</a>
+
+</body>
+</html>
